@@ -10,7 +10,9 @@ openButton.addEventListener("click", () => {
 
     opening.style.display = "none";
     mainContent.style.display = "block";
-    
+
+    weddingMusic.play();
+        
     createFireworks();
 
     startCountdown();
